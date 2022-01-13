@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.7" type="component" method="upgrade">
+    <name>com_adstxt</name>
+    <author>derdeka</author>
+    <version>0.1.0</version>
+    <creationDate>12.01.2022</creationDate>
+    <files>
+        <filename>adstxt.xml</filename>
+        <filename>adstxt.php</filename>
+        <filename>controller.php</filename>
+        <folder>views</folder>
+    </files>
+    <administration>
+
+    </administration>
+    <updateservers>
+        <server type="extension" priority="1" name="derdeka">https://raw.githubusercontent.com/derdeka/joomla-extensions/master/updates/com_adstxt.xml</server>
+    </updateservers>
+</extension>
