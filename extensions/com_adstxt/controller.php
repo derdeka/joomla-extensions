@@ -10,7 +10,7 @@ class AdstxtController extends JControllerLegacy
 {
     public function display($cachable = true, $urlparams = array())
     {
-        JResponse::setHeader('Content-Type', 'text/plain', true);
+        JFactory::getDocument()->setMimeEncoding('text/plain');
         $this->input->set('view', 'plain');
 
         return parent::display($cachable);
