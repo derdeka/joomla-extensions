@@ -2,8 +2,8 @@
 <extension version="3.7" type="component" method="upgrade">
     <name>com_adstxt</name>
     <author>derdeka</author>
-    <version>0.1.1</version>
-    <creationDate>13.01.2022</creationDate>
+    <version>0.1.2</version>
+    <creationDate>15.01.2022</creationDate>
     <files>
         <filename>adstxt.xml</filename>
         <filename>adstxt.php</filename>
